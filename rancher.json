@@ -13,7 +13,7 @@
     },
     "ImageId": {
       "Type": "String",
-      "Default": "ami-997b1eea"
+      "Default": "ami-93a392f0"
     },
     "KeyName": {
       "Type": "AWS::EC2::KeyPair::KeyName"
@@ -168,7 +168,7 @@
                 "rancher:\n",
                 "  services:\n",
                 "    rancher-server:\n",
-                "      image: rancher/server\n",
+                "      image: rancher/server:v1.2.0-pre4\n",
                 "      ports:\n",
                 "      - 8080:8080\n",
                 "      restart: always\n",
